@@ -1,0 +1,34 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    transition: background 0.3s, color 0.3s;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: #f1f1f1;
+}
+
+.dark-mode .table {
+    color: #fff;
+}
+
+.dark-mode .table th,
+.dark-mode .table td {
+    background-color: #1e1e1e;
+    border-color: #444;
+}
+
+.toggle-btn {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    z-index: 99;
+}
+
+table {
+    font-size: 14px;
+}
+footer {
+    font-size: 13px;
+    color: #666;
+}
